@@ -1,0 +1,85 @@
+.hero-container{
+    background-color: #ffff;
+    display: flex;
+    padding-top: 200px;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.hero-left{
+    width: 50%;
+    margin: 50px;
+}
+.hero-left h1 {
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.hero-left p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #73808c;
+    padding-bottom: 60px;
+}
+
+.hero-btn{
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232629;
+    padding: 12px 15px;
+    border-radius: 50px;
+    gap: 15px;
+    transition: 200ms ease-in ;
+
+}
+.hero-btn:hover{
+    background-color: black;
+
+}
+.hero-btn a{
+    color: #ffff;
+    font-size: 20px;
+}
+.hero-btn img{
+    width: 20px;
+}
+
+.hero-right{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    border-radius: 16px;
+    border: solid 0.5px #73808c;
+}
+.hero-right p{
+    color: #73808c;
+    font-size: 14px;
+    padding-bottom: 12px;
+    
+}
+.company-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon{
+    border-radius: 7px;
+    width: 30px;
+    height: 30px;
+}

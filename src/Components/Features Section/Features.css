@@ -1,0 +1,72 @@
+.features-title-container {
+    background-color: #fff;
+    padding-bottom: 45px;
+}
+
+.features-title-container h2 {
+    padding-left: 45px;
+
+    padding-top: 300px;
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.features-title-container p{
+    padding-left: 45px;
+
+    width: 40%;
+    font-weight: 300;
+    font-size: 20px;
+    color: #73808c;
+
+}
+
+
+/* secend component */
+
+
+.features-secend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f1f2f4;
+}
+
+.features-secend img{
+    width: 40%;
+    margin: auto;
+}
+
+.features-secend-left{
+    display: flex;
+    flex-direction: column;
+    height: 100;
+    width: 45%;
+    padding: 50px;
+}
+.features-secend-left h3{
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.features-secend-left p {
+    color: #73808c;
+    width: 40%;
+    padding-bottom: 50px;
+}
+
+.features-secend-links{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.features-secend-links a{
+    color: #73808c;
+    font-size: 20px;
+    font-weight: 300;
+}
+.features-secend-links a:hover{
+    text-decoration: underline;
+}
